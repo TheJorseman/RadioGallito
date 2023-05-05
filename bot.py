@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-#TOKEN = 'MTEwMjc2MDA4MzE3MzE1OTAzMw.GOMljQ.OW1VDDjMH-L4LamznElEBnn7cqhaoPgq4bKm-o'
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 RADIO_FILE = 'radio.csv'
 
